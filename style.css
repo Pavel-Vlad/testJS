@@ -67,7 +67,7 @@ body {
     background-color: #fff;
 }
 
-.div-line {
+/*.div-line {
     position: absolute;
     left: 50%;
     top: -50%;
@@ -84,5 +84,5 @@ body {
     100% {
         top: 150%;
     }
-}
+}*/
 
