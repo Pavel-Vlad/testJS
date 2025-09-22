@@ -1,5 +1,5 @@
 let dragosyabra = document.querySelector('input');
 
-dragosyabra.addEventListener('input', function (e) {
+dragosyabr.addEventListener('input', function (e) {
     console.log(e.target.value)
 })
