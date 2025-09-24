@@ -1,88 +1,39 @@
 body {
-    background-color: #469a26;
-    padding: 0;
+    background-color: aliceblue;
+    padding: 20;
     margin: 0;
-    position: relative;
 }
 
-.road {
+.babuy {
+    background-color: lightblue;
     width: 500px;
-    height: 100vh;
-    background-color: #636161;
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    font-family: ObelixPro;
 }
 
-.car {
-
-    position: absolute;
-    bottom: 20px;
-    left: 53%;
-    z-index: 1;
-}
-
-.car-body {
-    width: 100px;
+.roditcss {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 200px;
-    background-color: #c80e0e;
-    position: relative;
-    z-index: 1;
 }
 
-.wheel {
-    background-color: #000000;
-    width: 20px;
-    height: 50px;
-    position: absolute;
+
+@font-face {
+    font-family: 'ObelixPro';
+    src: url("/font/ObelixPro.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
 
-.wheel_1 {
-    top: 5px;
-    left: -5px;
+
+label {
+
 }
-
-.wheel_2 {
-    top: 5px;
-    right: -5px;
-}
-
-.wheel_3 {
-    bottom: 5px;
-    left: -5px;
-}
-
-.wheel_4 {
-    bottom: 5px;
-    right: -5px;
-}
-
-.div-line {
-    position: absolute;
-    top: -50%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 5px;
-    height: 200px;
-    background-color: #fff;
-}
-
-/*.div-line {
-    position: absolute;
-    left: 50%;
-    top: -50%;
-    width: 10px;
-    height: 50px;
-    background: white;
-    animation: roadLine 2s linear infinite;
-}
-
-@keyframes roadLine {
-    0% {
-        top: -50%;
-    }
-    100% {
-        top: 150%;
-    }
-}*/
-

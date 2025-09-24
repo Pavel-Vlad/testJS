@@ -7,10 +7,34 @@
 
 </head>
 <body>
-<label>
-    веди тек:
-    <input type="text">
-</label>
+
+<audio controls autoplay>
+    <source src="/audio/lofi.mp3" type="audio/mpeg">
+</audio>
+
+<div class = "roditcss">
+    <div class = "babuy">
+        <label>
+        Первое' чечло:
+        <input type="number" id="num1">
+        </label>
+        <br>
+        <label>
+        Второе' часло:
+        <input type="number" id="num2">
+        </label>
+        <div>
+            <button id="plus">+</button>
+            <button id="minus">‒</button>
+            <button id="multiplication">×</button>
+            <button id="divide">÷</button>
+        </div>
+        <label>
+            атверт:
+            <input type="text" id="answer" readonly>
+        </label>
+    </div>
+</div>
 
 <script src="js/pi.js"></script>
 </body>
